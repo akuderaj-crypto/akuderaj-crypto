@@ -5,42 +5,29 @@
     <title>Places in Solapur</title>
     <link rel="stylesheet" href="style.css">
     <style>
-        .gallery { display: flex; gap: 10px; flex-wrap: wrap; margin: 15px 0; }
-        .gallery img { width: 200px; height: 150px; object-fit: cover; border-radius: 8px; border: 2px solid var(--primary); }
+        .place-img { width: 100%; max-height: 300px; object-fit: cover; border-radius: 10px; margin: 15px 0; border: 2px solid var(--primary); }
     </style>
 </head>
 <body>
     <header><h1>Must-Visit Places</h1></header>
     <nav>
-        <a href="index.html">Home</a><a href="places.html">Places</a>
-        <a href="culture.html">Culture</a><a href="travel.html">Travel Guide</a>
+        <a href="index.html">Home</a>
+        <a href="places.html">Places</a>
+        <a href="culture.html">Culture</a>
+        <a href="travel.html">Travel Guide</a>
         <a href="food.html">Food</a>
+        <a href="gallery.html">Gallery</a>
     </nav>
     <div class="container">
         <section class="card">
             <h2>Siddheshwar Temple</h2>
-            <p>A major landmark near Siddheshwar Lake[cite: 16].</p>
-            <div class="gallery">
-                <img src="images/siddeshwar.jpg" alt="Temple Day">
-                <img src="images/siddeshwar_night.jpg" alt="Temple Night">
-            </div>
+            <p>Dedicated to Lord Siddheshwar, this temple is located near the peaceful Siddheshwar Lake[cite: 16].</p>
+            <img src="images/siddeshwar_night.jpg" alt="Siddheshwar Temple" class="place-img">
         </section>
         <section class="card">
             <h2>Pandharpur</h2>
-            <p>Home to the Vitthal Rukmini Temple[cite: 20].</p>
-            <div class="gallery">
-                <img src="images/pandharpur1.jpg" alt="Pandharpur 1">
-                <img src="images/pandharpur2.jpg" alt="Pandharpur 2">
-            </div>
-        </section>
-        <section class="card">
-            <h2>Tuljapur</h2>
-            <p>A nearby sacred pilgrimage destination[cite: 11].</p>
-            <div class="gallery">
-                <img src="images/tuljapur1.jpg" alt="Tuljapur 1">
-                <img src="images/tuljapur2.jpg" alt="Tuljapur 2">
-                <img src="images/tuljapur3.jpg" alt="Tuljapur 3">
-            </div>
+            <p>Famous for the Vitthal Rukmini Temple, located about 70 km from Solapur[cite: 19, 20].</p>
+            <img src="images/pandharpur1.jpg" alt="Pandharpur Temple" class="place-img">
         </section>
     </div>
 </body>
