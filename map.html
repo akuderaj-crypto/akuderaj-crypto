@@ -1,65 +1,135 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Map | Solapur Tourism</title>
-    <link rel="stylesheet" href="style.css">
+<title>Tourist Maps</title>
+
+<style>
+
+body{
+font-family: Arial;
+background:#f5f5f5;
+text-align:center;
+margin:0;
+}
+
+header{
+background:#333;
+color:white;
+padding:20px;
+}
+
+.container{
+width:90%;
+margin:auto;
+padding:20px;
+}
+
+.place{
+background:white;
+margin:20px;
+padding:20px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+iframe{
+width:100%;
+height:300px;
+border:0;
+border-radius:10px;
+}
+
+.btn{
+display:inline-block;
+margin-top:10px;
+padding:10px 20px;
+background:#007BFF;
+color:white;
+text-decoration:none;
+border-radius:5px;
+}
+
+.btn:hover{
+background:#0056b3;
+}
+
+</style>
+
 </head>
+
 <body>
-    <nav>
-        <div class="logo">Solapur Tourism</div>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="places.html">Places</a></li>
-            <li><a href="culture.html">Culture</a></li>
-            <li><a href="travel.html">Travel Guide</a></li>
-            <li><a href="food.html">Food</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="map.html" class="active">Map</a></li>
-            <li><a href="enquiry.html">Enquiry</a></li>
-        </ul>
-    </nav>
 
-    <header class="hero">
-        <h1>Solapur Map</h1>
-        <p>Navigate the Gateway to Spiritual Destinations</p>
-    </header>
+<header>
+<h1>Tourist Location Maps</h1>
+<p>Click below to get directions</p>
+</header>
 
-    <main class="content-wrapper">
-        <section class="card">
-            <h2>City & Regional Overview</h2>
-            <p>Solapur serves as a major gateway to several nearby pilgrimage destinations[cite: 11]. Below is a visual guide to the city's central landmarks and the distances to major regional hubs[cite: 54, 55, 56, 57, 58].</p>
-            
-            <div class="map-container">
-                <div class="map-placeholder">
-                    
-                </div>
-            </div>
-        </section>
+<div class="container">
 
-        <section class="grid">
-            <div class="card">
-                <h3>Nearby Pilgrimage Hubs</h3>
-                <ul>
-                    <li><strong>Pandharpur:</strong> 70 km from Solapur[cite: 19].</li>
-                    <li><strong>Akkalkot:</strong> 40 km from Solapur[cite: 23].</li>
-                </ul>
-            </div>
-            <div class="card">
-                <h3>Major Highway Connections</h3>
-                <ul>
-                    <li>Pune: 250 km [cite: 55]</li>
-                    <li>Hyderabad: 300 km [cite: 56]</li>
-                    <li>Mumbai: 400 km [cite: 57]</li>
-                    <li>Bengaluru: 380 km [cite: 58]</li>
-                </ul>
-            </div>
-        </section>
-    </main>
+<!-- Pandharpur -->
 
-    <footer>
-        <p>&copy; 2026 Solapur Tourism. Plan your journey today.</p>
-    </footer>
+<div class="place">
+<h2>Pandharpur Temple</h2>
+
+<iframe src="https://www.google.com/maps?q=17.6775,75.3352&z=15&output=embed"></iframe>
+
+<br>
+
+<a class="btn" href="https://www.google.com/maps/dir/?api=1&destination=17.6775,75.3352" target="_blank">
+Get Directions
+</a>
+
+</div>
+
+
+<!-- Tuljapur -->
+
+<div class="place">
+<h2>Tuljapur Temple</h2>
+
+<iframe src="https://www.google.com/maps?q=18.011386,76.125641&z=15&output=embed"></iframe>
+
+<br>
+
+<a class="btn" href="https://www.google.com/maps/dir/?api=1&destination=18.011386,76.125641" target="_blank">
+Get Directions
+</a>
+
+</div>
+
+
+<!-- Akkalkot -->
+
+<div class="place">
+<h2>Akkalkot Swami Samarth</h2>
+
+<iframe src="https://www.google.com/maps?q=17.5270448,76.2026183&z=15&output=embed"></iframe>
+
+<br>
+
+<a class="btn" href="https://www.google.com/maps/dir/?api=1&destination=17.5270448,76.2026183" target="_blank">
+Get Directions
+</a>
+
+</div>
+
+
+<!-- Solapur Fort -->
+
+<div class="place">
+<h2>Solapur Fort</h2>
+
+<iframe src="https://www.google.com/maps?q=17.67447,75.90213&z=15&output=embed"></iframe>
+
+<br>
+
+<a class="btn" href="https://www.google.com/maps/dir/?api=1&destination=17.67447,75.90213" target="_blank">
+Get Directions
+</a>
+
+</div>
+
+</div>
+
 </body>
 </html>
